@@ -22,7 +22,7 @@ html, body {
 
 nav > h1 {
     color: rgb(229, 188, 66);;
-    font: 900 2vmax "Verdana";
+    font: 900 2vmax "Anek Malayalam";
     letter-spacing: 2px;
     
 }
@@ -44,13 +44,13 @@ nav > button,
     border: 5px solid rgba(255, 255, 255, 0.3);
     border-radius: 0.8vmax;
     color: rgb(73, 59, 21);
-    font: 600 1vmax "Verdana";
+    font: 600 1vmax "Anek Malayalam";
 
 }
 
 nav > ul {
     list-style: none;
-    font: 400 1.2vmax "Verdana";
+    font: 400 1.2vmax "Anek Malayalam";
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -59,7 +59,7 @@ nav > ul {
 
 nav > ul > li {
     padding: 0 1vmax;
-    font: 600 1vmax "Verdana";
+    font: 600 1vmax "Anek Malayalam";
     height: 100%;
     display: flex;
     align-items: center;
@@ -111,7 +111,7 @@ nav > ul > li:hover::after {
     /* font-size: ;
     font-weight: ;
     font-family: ; */
-    font: 900 5vmax "Verdana";
+    font: 900 5vmax "Anek Malayalam";
     line-height: 5vmax;
     color: rgb(118, 76, 216);
     
@@ -126,14 +126,33 @@ nav > ul > li:hover::after {
 
 .content-one > p,
 .title {
-    font: 400 1vmax "Verdana";
+    font: 400 1vmax "Anek Malayalam";
     margin: 2vmax 0;
     line-height: 1.5;
     color: black;
 }
 
 .content-one > div > span {
-    font: 400 1vmax "Verdana";
+    font: 400 1vmax "Anek Malayalam";
     margin: 3vmax;
     color: burlywood;
 }
+
+.content-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content-two > div > form {
+    font: 200 1.2vmax "Anek Malayalam";
+    padding: 100px;
+    
+
+#SHIVIN {
+    font: 0.5em  "Anek Malayalam";
+    padding-top: 60px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: last baseline;
+}   
